@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="color" size="5.000000 4.556213" />
+    <ImageTarget name="lupe" size="5.000000 2.395210" />
+    <ImageTarget name="rotation" size="5.000000 4.945273" />
+    <ImageTarget name="vindonessa" size="4.000000 2.674330" />
+    <ImageTarget name="BuecherwurmTracker" size="5.000000 7.407601" />
+    <ImageTarget name="Rezept_Tracker" size="5.000000 7.407937" />
+  </Tracking>
+</QCARConfig>
