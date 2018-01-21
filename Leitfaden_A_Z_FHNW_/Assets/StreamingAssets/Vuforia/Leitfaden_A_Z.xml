@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
+    <ImageTarget name="Schweizer_Franken_1850" size="5.000000 2.942628" />
     <ImageTarget name="color" size="5.000000 4.556213" />
     <ImageTarget name="lupe" size="5.000000 2.395210" />
     <ImageTarget name="rotation" size="5.000000 4.945273" />

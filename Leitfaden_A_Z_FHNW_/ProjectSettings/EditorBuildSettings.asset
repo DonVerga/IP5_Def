@@ -5,9 +5,9 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/LeitFaden_A_Z.unity
     guid: 7e519f2496ea3874fb1e05315315b924
-  - enabled: 1
+  - enabled: 0
     path: Assets/InAppBrowser/Example/ExampleScene.unity
     guid: 943f4dd7f2cb44e1482baab5930c21b9
