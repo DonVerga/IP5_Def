@@ -159,6 +159,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
     Android: com.FHNW.Leitfaden_A_Z_FHNW_
+    iOS: com.FHNW.LeitfadenAZFHNW
   buildNumber: {}
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 16

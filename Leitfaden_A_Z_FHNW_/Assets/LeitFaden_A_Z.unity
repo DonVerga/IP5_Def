@@ -355,7 +355,7 @@ Transform:
   m_GameObject: {fileID: 75023706}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0.7071068, w: 0}
   m_LocalPosition: {x: 0, y: 0.015, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.8499999, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1361418768}
   m_RootOrder: 0
@@ -525,7 +525,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 153168163}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.37, z: 0}
+  m_LocalPosition: {x: -0.54, y: 0.61, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 1375596101}
@@ -1527,10 +1527,10 @@ MonoBehaviour:
   mSensitivity: 1
   mHasUpdatedPose: 1
   mPrevTransform:
-    e00: 2.9770312
+    e00: 1.0047473
     e01: 0
     e02: 0
-    e03: 43.285
+    e03: 43.265003
     e10: 0
     e11: 5
     e12: 0
@@ -1551,8 +1551,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 608121151}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.17699967, y: 0.001, z: -0.162}
-  m_LocalScale: {x: 0.59540623, y: 1, z: 0.2}
+  m_LocalPosition: {x: 0.17300034, y: 0.001, z: -0.162}
+  m_LocalScale: {x: 0.20094945, y: 1, z: 0.2}
   m_Children: []
   m_Father: {fileID: 1315994624}
   m_RootOrder: 0
@@ -2414,7 +2414,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1150971290}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.62, z: 0}
+  m_LocalPosition: {x: 0.51, y: 0.61, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 1375596101}
@@ -3097,7 +3097,7 @@ Transform:
   m_GameObject: {fileID: 1361418767}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.169, y: 0, z: -0.162}
-  m_LocalScale: {x: -0.057812, y: 1, z: 0.019061808}
+  m_LocalScale: {x: -0.020957004, y: 1, z: 0.019061808}
   m_Children:
   - {fileID: 75023707}
   m_Father: {fileID: 1315994624}
@@ -3259,8 +3259,8 @@ MonoBehaviour:
   mExtendedTracking: 0
   mAspectRatio: 0.98905456
   mImageTargetType: 0
-  mWidth: 5
-  mHeight: 4.945273
+  mWidth: 1.375
+  mHeight: 1.3599501
 --- !u!4 &1375596101
 Transform:
   m_ObjectHideFlags: 0
@@ -3269,7 +3269,7 @@ Transform:
   m_GameObject: {fileID: 1375596095}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 25.21, y: 0, z: 0}
-  m_LocalScale: {x: 5, y: 5, z: 5}
+  m_LocalScale: {x: 1.375, y: 1.375, z: 1.375}
   m_Children:
   - {fileID: 1150971291}
   - {fileID: 153168164}
@@ -3557,7 +3557,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92db6939d9e9345199b50c8fc89dd7ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pageToOpen: http://sts.fhnw.ch/identity/login?signin=6adbc1653a019f1e66acaa4177c7e2eb
+  pageToOpen: http://google.com
 --- !u!1 &1546932568
 GameObject:
   m_ObjectHideFlags: 0

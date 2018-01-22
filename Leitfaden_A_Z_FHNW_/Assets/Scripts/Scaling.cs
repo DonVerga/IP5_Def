@@ -2,7 +2,7 @@
 using UnityEngine;
 using System.Collections;
 
-public class CSharpscaling : MonoBehaviour {
+public class Scaling : MonoBehaviour {
 	
 	
 	public float initialFingersDistance;
@@ -14,20 +14,25 @@ public class CSharpscaling : MonoBehaviour {
 		int fingersOnScreen = 0;
 		
 		foreach(Touch touch in Input.touches) {
-			fingersOnScreen++; //Count fingers (or rather touches) on screen as you iterate through all screen touches.
+            //Finger Zählen auf dem Display
+            fingersOnScreen++; 
 			
-			//You need two fingers on screen to pinch.
+			//Abfrage ob zwei finger auf dem Display sind
 			if(fingersOnScreen == 2){
-				
-				//First set the initial distance between fingers so you can compare.
-				if(touch.phase == TouchPhase.Began){
+
+                //Abfrage der initialen Finger Distanz Input-touches[0] = 1 Finger, Input-touches[1] = 2. Finger
+                if (touch.phase == TouchPhase.Began){
 					initialFingersDistance = Vector2.Distance(Input.touches[0].position, Input.touches[1].position);
+
+                    // Momentane Skalierung
 					initialScale = ScaleTransform.localScale;
 				}
 				else{
+                    //Neue Distanz der Finger angeben
 					float currentFingersDistance = Vector2.Distance(Input.touches[0].position, Input.touches[1].position);
-					
-					float scaleFactor = currentFingersDistance / initialFingersDistance;
+
+                    //Wieviel Skalierung im Verhältniss  Momentane Position/ 1. Berürung 
+                    float scaleFactor = currentFingersDistance / initialFingersDistance;
 					
 					//transform.localScale = initialScale * scaleFactor;
 					ScaleTransform.localScale = initialScale * scaleFactor; 
